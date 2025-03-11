@@ -2,57 +2,60 @@
 
 <html lang="pt-br">
 
-  <head>
+<!-- Apenas um observação, o ID é ultilizado no JS e as classes no CSS, assim fica mais facil e intuitivo programar.-->
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./Estilos/styles.css" />
-    <title>Lista de Compras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+    rel="stylesheet" />
 
-  </head>
+  <link rel="stylesheet" href="./Estilos/styles.css" />
+  <title>Lista de Compras</title>
 
-  <body>
+</head>
 
-    <main>
+<body>
 
-        <img src="./Imagens/bag.png" alt="sacola de compras" />
+  <main>
 
-        <form>
+    <img src="./Imagens/bag.png" alt="sacola de compras" />
 
-            <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar"  />
-            <button class="button-item" id="adicionar-item" type="button">Salvar item </button>
+    <form>
 
-        </form>
+      <input class="input-item" id="input-item" type="text" placeholder="Digite o item que deseja adicionar" />
+      <button class="button-item" id="adicionar-item" type="button">Salvar item </button>
 
-        <div class="container-lista">
+    </form>
 
-            <h2>Lista de compras</h2>
+    <div class="container-lista">
 
-            <hr/>
+      <h2>Lista de compras</h2>
 
-            <ul id="lista-de-compras">
+      <hr />
 
-                <li>
-                    <div class="lista-item-container">
-                    <input type="checkbox" id="checkbox-1" />
-                    <p>Ração de gato</p>
-                    </div>
-                    <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
-                </li>
+      <ul id="lista-de-compras">
 
-            </ul>
+        <li>
+          <div class="lista-item-container">
+            <input type="checkbox" id="checkbox-1" />
+            <p>Ração de gato</p>
+          </div>
+          <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
+        </li>
 
-        </div>
+      </ul>
 
-    </main>
+    </div>
 
-    <script src="script.js"></script>
+  </main>
 
-  </body>
+  <script src="script.js"></script>
+
+</body>
 
 </html>
