@@ -15,7 +15,7 @@ botaoAdd.addEventListener("click", (evento) => {
     containerItemDaLista.classList.add("lista-item-container");
     const inputCheckbox = document.createElement("input");
     inputCheckbox.type - "checkbox";
-    inputCheckbox.id = "checkbox-" + contador++;
+    //inputCheckbox.id = "checkbox-" + contador++;
 
 });
 //funcion call back ou função de retorno que é a mesmsa coisa que uma função dentro de outra
